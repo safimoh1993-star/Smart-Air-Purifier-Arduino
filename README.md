@@ -33,7 +33,7 @@ When pollution or heat exceeds safe limits, a **fan** is automatically activated
 ---
 
 ## 💻 Code File
-All Arduino logic is included in **SmartAir.ino**.  
+All Arduino logic is included in **[SmartAir.ino](https://github.com/safimoh1993-star/Smart-Air-Purifier-Arduino/blob/main/SmartAir.ino)**.  
 The code can easily be simulated using **Tinkercad Circuits**.
 
 ---
