@@ -47,7 +47,7 @@ Use these available components: **MQ-135**, **DHT11**, and **DC Motor** (as the 
 ## 📸 Project Files
 - `/Circuit` → Circuit diagram 
 - `/Docs` → Components list, detailed explanation  
-- `/Video` → Demo video of the working project  
+- `/Video` → [Demo video of the working project ](https://www.linkedin.com/posts/%D8%B5%D8%A7%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B1%D9%86%D9%8A-513176240_smart-air-purifier-iot-project-im-truly-activity-7295511179689394177-k6-6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvTLl8BAWX2L7FEtmTU9TsTPiuXL_oggqk) 
 
 ---
 
