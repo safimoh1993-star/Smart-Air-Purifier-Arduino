@@ -1,7 +1,11 @@
 # 🌿 Smart Air Purifier using Arduino
 
-A smart air purification system built with **Arduino Uno** that monitors **gas**, **dust**, and **temperature/humidity** levels.  
-When pollution or heat rises beyond a safe threshold, the fan activates automatically, ensuring cleaner air.
+A smart air purification system designed and built by **high school students** under the supervision of **Teacher Safia Mohammed Al-Qarni** for the *Internet of Things (IoT)* course.  
+
+The device monitors **gas**, **dust**, and **temperature/humidity** levels using Arduino sensors.  
+When pollution or heat exceeds safe limits, a **fan** is automatically activated to purify the air.  
+
+🎥 *A short demo video is included in this repository — the teacher is very proud of her students and their creativity!* 💚
 
 ---
 
@@ -10,42 +14,46 @@ When pollution or heat rises beyond a safe threshold, the fan activates automati
 |------------|-----------|
 | Arduino UNO | Main microcontroller |
 | MQ-135 Gas Sensor | Detects harmful gases or smoke |
-| Dust Sensor (GP2Y1010AU0F) | Measures dust particles in air |
+| Dust Sensor (GP2Y1010AU0F) | Measures dust particles in the air |
 | DHT11 Sensor | Reads temperature and humidity |
-| DC Fan | Cleans air when activated |
-| NPN Transistor (2N2222) | Controls the fan |
+| DC Fan | Cleans the air when activated |
+| NPN Transistor (2N2222) | Controls the fan motor |
 | 10kΩ Resistor | For signal stabilization |
-| LEDs (Red / Green) | Indicate air status |
+| LEDs (Red / Green) | Show air status |
 | Breadboard & Jumper Wires | Circuit connections |
 
 ---
 
 ## 💡 How It Works
 1. Sensors continuously read air quality data.  
-2. Arduino compares sensor values to set thresholds.  
-3. If pollution or heat is high → fan turns ON and red LED lights up.  
-4. If air is clean → fan turns OFF and green LED lights up.  
+2. Arduino compares the readings to preset safety thresholds.  
+3. If pollution or heat is high → fan turns **ON** and **red LED** lights up.  
+4. If the air is clean → fan turns **OFF** and **green LED** lights up.  
 
 ---
 
 ## 💻 Code File
-All Arduino logic is contained in `SmartAir.ino`.
+All Arduino logic is included in **SmartAir.ino**.  
+The code can easily be simulated using **Tinkercad Circuits**.
 
 ---
 
 ## 🔌 Simulation
-You can simulate this project on [Tinkercad Circuits](https://www.tinkercad.com/).  
-Use available sensors: **MQ-135**, **DHT11**, and **DC Motor** (as a fan).
+You can simulate this project on [Tinkercad](https://www.tinkercad.com/).  
+Use these available components: **MQ-135**, **DHT11**, and **DC Motor** (as the fan).
 
 ---
 
 ## 📸 Project Files
-- `/Circuit` → Circuit diagram & Fritzing file  
-- `/Docs` → Detailed component list, explanation, and PowerPoint  
-- `/Images` → Prototype and simulation screenshots  
+- `/Circuit` → Circuit diagram 
+- `/Docs` → Components list, detailed explanation  
+- `/Video` → Demo video of the working project  
 
 ---
 
-## ✨ Author
-Developed by **Safia Mohammed Al-Qarni**  
-📍 *Academy of Learning – Riyadh, Saudi Arabia*
+## ✨ Credits
+**Teacher:** Safia Mohammed Al-Qarni  
+**Subject:** Internet of Things (IoT)  
+**School Level:** High School – Riyadh, Saudi Arabia  
+
+> “I’m truly proud of my students for their creativity, teamwork, and passion for learning technology.” 💚
